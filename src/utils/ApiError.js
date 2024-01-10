@@ -1,3 +1,5 @@
+/* The `ApiError` class is a custom error class in JavaScript that represents an error that occurred
+during an API request, including the status code, error message, and stack trace. */
 class ApiError extends Error{
     constructor(
         statusCode,
